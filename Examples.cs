@@ -65,6 +65,7 @@ public class EdPlayer : Player
     protected override void loop()
     {
         frame++;
+        
         if (Energy < 10 || frame % 10 == 0)
             return;
         if (EntitiesInStrongSonar == 0)
